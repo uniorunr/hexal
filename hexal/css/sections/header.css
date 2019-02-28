@@ -38,3 +38,30 @@ header {
   border-width: 26px 45px 0 45px;
   border-color: #323232 transparent transparent transparent;
 }
+
+.header-menu.menu-left li:nth-child(2)::before {
+  content: '•';
+  font-size: 5px;
+  position: relative;
+  bottom: 1px;
+  right: 24%;
+  color: #494e62;
+}
+
+.header-menu.menu-right li:nth-child(2)::before {
+  content: '•';
+  font-size: 5px;
+  position: relative;
+  bottom: 1px;
+  right: 12%;
+  color: #494e62;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #2eb398;
+}
