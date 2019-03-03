@@ -50,6 +50,9 @@
 }
 
 .hexagon-layer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   transform: rotate(120deg);

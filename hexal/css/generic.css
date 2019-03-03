@@ -10,3 +10,18 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+  position: relative;
+  right: 4px;
+}
+
+h2 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
