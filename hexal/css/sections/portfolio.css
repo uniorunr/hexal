@@ -173,6 +173,7 @@
   left: 20px;
   top: 73px;
   font-size: 0;
+  width: 100px;
 }
 
 .portfolio-controls label {
@@ -182,4 +183,8 @@
   margin: 0 3px 0 0;
   background: #ddd2c5;
   cursor: pointer;
+}
+
+.portfolio-controls .active {
+  background: #8b8784;
 }
