@@ -16,7 +16,9 @@ h1 {
   font-weight: 400;
   margin: 0;
   position: relative;
-  right: 4px;
+  right: 2px;
+  bottom: 2px;
+  line-height: 26px;
 }
 
 h2 {
