@@ -1,0 +1,98 @@
+.contact {
+  background-color: #323232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-wrapper {
+  width: 780px;
+  display: flex;
+  flex-direction: column;
+  padding: 53px 90px;
+  margin: 13px 0;
+  border-top: solid #2b2b2b 1px;
+  border-bottom: solid #2b2b2b 1px;
+}
+
+.contact-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+section.contact h2 {
+  text-transform: capitalize; 
+  font-size: 30px;
+  font-family: "Maven Pro", sans-serif;
+  line-height: 22px;
+  margin: 0 0 5px 0;
+}
+
+section.contact h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0px 20px 0;
+  color: #bebebe;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.contact-form fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+
+.contact-form fieldset input,
+.contact-form fieldset textarea {
+  display: block;
+  width: 552px;
+  height: 38px;
+  margin: 0 0 16px;
+  padding: 0 14px;
+  background: #454545;
+  border: none;
+  font: 12px "Lato", sans-serif;
+  color: #bebebe;
+  resize: none;
+}
+
+.contact-form fieldset .contact-form-message {
+  height: 134px;
+  padding: 8px 14px;
+  line-height: 22px;
+}
+
+.contact-form fieldset .contact-form-submit {
+  width: 90px;
+  margin: 0;
+  margin-left: auto;
+  background: #2eb398;
+  text-transform: uppercase;
+  color: #d7fcf5;
+  cursor: pointer;
+}
+
+.contact-description {
+  position: relative;
+  bottom: 5px;
+}
+
+.contact-description p {
+  font: 400 12px Lato, sans-serif;
+  margin: 0;
+  line-height: 21.56px;
+  text-align: justify;
+  color: #e0e0e0;
+}
+
+.contact-description p strong {
+  font: 900 12px Lato, sans-serif;
+}
