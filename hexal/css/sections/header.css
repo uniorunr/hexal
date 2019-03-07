@@ -1,9 +1,14 @@
-header {
+.header {
   background: #323232;
+  display: flex;
+  justify-content: center;
 }
 
 .header-wrapper {
-  width: 370px;
+  width: 820px;
+}
+
+.header-navbar {
   margin: 0 auto;
   padding: 0 0 0 4px;
   display: flex;
@@ -15,7 +20,6 @@ header {
 .header-menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   list-style: none;
   padding: 0;
@@ -24,18 +28,34 @@ header {
   flex-grow: 1;
 }
 
+.header-menu li:first-child {
+  margin-right: 20px;
+}
+
+.header-menu.menu-left {
+  justify-content: flex-end;
+}
+
+.header-menu.menu-left li:first-child .nav-link {
+  color: #2eb398;
+}
+
 .header-logo {
   width: 90px;
   height: 63px;
   margin: 0 26px 0 25px;
-  background: url("../../assets/logo.png") center bottom no-repeat;
+}
+
+.header-logo .logo {
+  display: block;
+  margin: 10px auto 0 auto;
 }
 
 .header-logo::after {
   content: '';
   position: relative;
-  left: 0px;
-  top: 89px;
+  left: 1px;
+  top: 24px;
   border-style: solid;
   border-width: 26px 45px 0 45px;
   border-color: #323232 transparent transparent transparent;
@@ -46,7 +66,7 @@ header {
   font-size: 5px;
   position: relative;
   bottom: 1px;
-  right: 24%;
+  right: 26%;
   color: #494e62;
 }
 
@@ -55,7 +75,7 @@ header {
   font-size: 5px;
   position: relative;
   bottom: 1px;
-  right: 12%;
+  right: 14%;
   color: #494e62;
 }
 
