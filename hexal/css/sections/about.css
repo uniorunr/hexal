@@ -48,7 +48,6 @@ section.about .hexagon-wrapper {
   display: flex;
   position: relative;
   right: 10px;
-  top: 1px;
 }
 
 .author-description p {
@@ -65,7 +64,13 @@ section.about .hexagon-wrapper {
   flex-direction: row;
   justify-content: flex-end;
   position: relative;
-  top: 2px;
+  top: 1px;
+}
+
+.author-social-links a i {
+  position: relative;
+  top: 1px;
+  right: 1px;
 }
 
 .social-links {
@@ -75,7 +80,7 @@ section.about .hexagon-wrapper {
   font-size: 12px;
   width: 24px;
   height: 24px;
-  color: #ffffff;
+  color: #04ac95;;
   text-decoration: none;
 }
 
@@ -84,25 +89,53 @@ section.about .hexagon-wrapper {
 }
 
 .social-links-facebook {
-  background: #3660a0;
+  background: #a5dbd4;
 }
 
 .social-links-twitter {
-  background: #2ca9e1;
+  background: #6ccbbe;
 }
 
 .social-links-gplus {
-  background: #dc5443;
+  background: #7ed0c5;
 }
 
 .social-links-pinterest {
-  background: #cb2027;
+  background: #acddd7;
 }
 
 .social-links-linkedin {
-  background: #096c9b;
+  background: #abddd6;
 }
 
 .social-links-dribble {
+  background: #6dcbbe;
+}
+
+.social-links:hover {
+  color: #ffffff;
+}
+
+.social-links-facebook:hover {
+  background: #3660a0;
+}
+
+.social-links-twitter:hover {
+  background: #2ca9e1;
+}
+
+.social-links-gplus:hover {
+  background: #dc5443;
+}
+
+.social-links-pinterest:hover {
+  background: #cb2027;
+}
+
+.social-links-linkedin:hover {
+  background: #096c9b;
+}
+
+.social-links-dribble:hover {
   background: #ef558e;
 }
