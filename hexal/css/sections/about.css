@@ -33,6 +33,7 @@
 
 .author-img-container img {
   margin: 0 0 1px 4px;
+  height: 100%;
 }
 
 .author-personal-info {

@@ -7,7 +7,7 @@
 .portfolio-top-border .left-side {
   width: 410px;
   height: 1px;
-  background-color: #0000001a;
+  background-color: #e5e5e5;
   position: relative;
   top: 11px;
   left: 20px;
@@ -22,7 +22,7 @@
 .portfolio-top-border .right-side {
   width: 410px;
   height: 1px;
-  background-color: #0000001a;
+  background-color: #e5e5e5;
   position: relative;
   top: 11px;
   right: 20px;
@@ -141,7 +141,7 @@
   content: '';
   height: 103px;
   width: 1px;
-  background: #0000001a;
+  background: #e5e5e5;
   top: 51px;
   position: absolute;
 }
@@ -165,7 +165,7 @@
 .portfolio-bottom-border .border {
   width: 960px;
   height: 1px;
-  background-color: #0000001a;
+  background-color: #e5e5e5;
   position: relative;
   top: 84px;
   left: 20px;
