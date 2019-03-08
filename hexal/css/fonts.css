@@ -1,0 +1,25 @@
+@font-face {
+  font-weight: normal;
+  font-family: "Lato";
+
+  src: url("../assets/fonts/Lato/Lato-Regular.woff2") format("woff2"),
+  url("../assets/fonts/Lato/Lato-Regular.woff") format("woff"),
+  url("../assets/fonts/Lato/Lato-Regular.ttf")  format("truetype");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "Lato";
+
+  src: url("../assets/fonts/Lato/Lato-Bold.woff2") format("woff2"),
+  url("../assets/fonts/Lato/Lato-Bold.woff") format("woff"),
+  url("../assets/fonts/Lato/Lato-Bold.ttf")  format("truetype");
+}
+
+@font-face {
+  font-family: "Maven Pro";
+
+  src: url("../assets/fonts/Maven_Pro/MavenPro-Regular.woff2") format("woff2"),
+  url("../assets/fonts/Maven_Pro/MavenPro-Regular.woff") format("woff"),
+  url("../assets/fonts/Maven_Pro/MavenPro-Regular.ttf")  format("truetype");
+}
