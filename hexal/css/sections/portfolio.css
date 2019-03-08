@@ -1,5 +1,5 @@
 .portfolio {
-  height: 720px;
+  height: 721px;
   display: flex;
   justify-content: center;
 }
@@ -148,12 +148,12 @@
 
 .hexagon-row1::before,
 .hexagon-row3::before {
-  left: 90px;
+  left: 89px;
 }
 
 .hexagon-row1::after,
 .hexagon-row3::after {
-  right: 90px;
+  right: 89px;
 }
 
 .portfolio-bottom-border {
