@@ -1,29 +1,31 @@
-html, 
+html,
 body {
   min-width: 1020px;
-  height: 100%;
-  font: 10px 'Lato', 'Arial', sans-serif;
+
+  font: 10px "Lato", "Arial", sans-serif;
 }
 
 body {
-  color: #ffffff;
   margin: 0;
+
+  color: #ffffff;
 }
 
 h1 {
-  font-family: 'Maven Pro', sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  margin: 0;
   position: relative;
   right: 3px;
   bottom: 2px;
+
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 30px;
   line-height: 26px;
+  font-family: "Maven Pro", sans-serif;
 }
 
 h2 {
-  font-family: 'Maven Pro', sans-serif;
-  font-size: 18px;
   font-weight: 400;
+  font-size: 18px;
+  font-family: "Maven Pro", sans-serif;
 }
-

@@ -1,16 +1,18 @@
 .portfolio {
-  height: 721px;
   display: flex;
   justify-content: center;
+  height: 721px;
 }
 
 .portfolio-top-border .left-side {
-  width: 410px;
-  height: 1px;
-  background-color: #e5e5e5;
   position: relative;
   top: 11px;
   left: 20px;
+
+  width: 410px;
+  height: 1px;
+
+  background-color: #e5e5e5;
 }
 
 .portfolio-top-border {
@@ -20,20 +22,23 @@
 }
 
 .portfolio-top-border .right-side {
-  width: 410px;
-  height: 1px;
-  background-color: #e5e5e5;
   position: relative;
   top: 11px;
   right: 20px;
+
+  width: 410px;
+  height: 1px;
+
+  background-color: #e5e5e5;
 }
 
 .hexagon {
   width: 180px;
   height: 206px;
-  margin: 30px 10px; 
-  transform: rotate(120deg);
+  margin: 30px 10px;
   overflow: hidden;
+
+  transform: rotate(120deg);
   visibility: hidden;
 }
 
@@ -44,8 +49,9 @@
 .hexagon-layer1 {
   width: 100%;
   height: 100%;
-  transform: rotate(120deg);
   overflow: hidden;
+
+  transform: rotate(120deg);
   visibility: hidden;
 }
 
@@ -55,61 +61,62 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  transform: rotate(120deg);
   overflow: hidden;
+
+  transform: rotate(120deg);
   visibility: visible;
 }
 
 .hexagon-img1 {
-  background: url('../../assets/portfolio/hexagon-img-1.png') no-repeat 54% 70%;
+  background: url("../../assets/portfolio/hexagon-img-1.png") no-repeat 54% 70%;
 }
 
 .hexagon-img2 {
-  background: url('../../assets/portfolio/hexagon-img-2.png') no-repeat 50% 64%;
+  background: url("../../assets/portfolio/hexagon-img-2.png") no-repeat 50% 64%;
 }
 
 .hexagon-img3 {
-  background: url('../../assets/portfolio/hexagon-img-3.png') no-repeat 48% 48%;
+  background: url("../../assets/portfolio/hexagon-img-3.png") no-repeat 48% 48%;
 }
 
 .hexagon-img4 {
-  background: #4a2607 url('../../assets/portfolio/hexagon-img-4.png') no-repeat 48% 122%;
+  background: #4a2607 url("../../assets/portfolio/hexagon-img-4.png") no-repeat 48% 122%;
 }
 
 .hexagon-img5 {
-  background: url('../../assets/portfolio/hexagon-img-5.png') no-repeat 50% 78%;
+  background: url("../../assets/portfolio/hexagon-img-5.png") no-repeat 50% 78%;
 }
 
 .hexagon-img6 {
-  background: url('../../assets/portfolio/hexagon-img-6.png') no-repeat 48% 82%;
+  background: url("../../assets/portfolio/hexagon-img-6.png") no-repeat 48% 82%;
 }
 
 .hexagon-img7 {
-  background: url('../../assets/portfolio/hexagon-img-7.png') no-repeat 48% 50%;
+  background: url("../../assets/portfolio/hexagon-img-7.png") no-repeat 48% 50%;
 }
 
 .hexagon-img8 {
-  background: url('../../assets/portfolio/hexagon-img-8.png') no-repeat 46% 50%;
+  background: url("../../assets/portfolio/hexagon-img-8.png") no-repeat 46% 50%;
 }
 
 .hexagon-img9 {
-  background: url('../../assets/portfolio/hexagon-img-9.png') no-repeat 52% 56%;
+  background: url("../../assets/portfolio/hexagon-img-9.png") no-repeat 52% 56%;
 }
 
 .hexagon-img10 {
-  background: url('../../assets/portfolio/hexagon-img-10.png') no-repeat 48% 48%;
+  background: url("../../assets/portfolio/hexagon-img-10.png") no-repeat 48% 48%;
 }
 
 .hexagon-img11 {
-  background: url('../../assets/portfolio/hexagon-img-11.png') no-repeat 48% 44%;
+  background: url("../../assets/portfolio/hexagon-img-11.png") no-repeat 48% 44%;
 }
 
 .hexagon-img12 {
-  background: url('../../assets/portfolio/hexagon-img-12.png') no-repeat 48% 40%;
+  background: url("../../assets/portfolio/hexagon-img-12.png") no-repeat 48% 40%;
 }
 
 .hexagon-img13 {
-  background: url('../../assets/portfolio/hexagon-img-13.png') no-repeat 24% 44%;
+  background: url("../../assets/portfolio/hexagon-img-13.png") no-repeat 24% 44%;
 }
 
 .hexagon-row {
@@ -134,16 +141,18 @@
   top: 13px;
 }
 
-.hexagon-row1::before, 
+.hexagon-row1::before,
 .hexagon-row1::after,
-.hexagon-row3::before, 
+.hexagon-row3::before,
 .hexagon-row3::after {
-  content: '';
-  height: 103px;
-  width: 1px;
-  background: #e5e5e5;
-  top: 51px;
+  content: "";
   position: absolute;
+  top: 51px;
+
+  width: 1px;
+  height: 103px;
+
+  background: #e5e5e5;
 }
 
 .hexagon-row1::before,
@@ -163,20 +172,24 @@
 }
 
 .portfolio-bottom-border .border {
-  width: 960px;
-  height: 1px;
-  background-color: #e5e5e5;
   position: relative;
   top: 84px;
   left: 20px;
+
+  width: 960px;
+  height: 1px;
+
+  background-color: #e5e5e5;
 }
 
 .portfolio-controls {
   position: relative;
-  left: 20px;
   top: 73px;
-  font-size: 0;
+  left: 20px;
+
   width: 100px;
+
+  font-size: 0;
 }
 
 .portfolio-controls label {
@@ -184,6 +197,7 @@
   width: 6px;
   height: 6px;
   margin: 0 3px 0 0;
+
   background: #ddd2c5;
   cursor: pointer;
 }
