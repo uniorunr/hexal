@@ -9,8 +9,8 @@
   width: 780px;
   display: flex;
   flex-direction: column;
-  padding: 53px 90px;
-  margin: 13px 0 10px 0;
+  padding: 52px 90px;
+  margin: 13px 0 11px 0;
   border-top: solid #2b2b2b 1px;
   border-bottom: solid #2b2b2b 1px;
 }
@@ -73,6 +73,7 @@ section.contact h3 {
 .contact-form fieldset .contact-form-submit {
   width: 90px;
   margin: 0;
+  padding: 0 0 2px 0;
   margin-left: auto;
   background: #2eb398;
   text-transform: uppercase;
@@ -107,6 +108,7 @@ section.contact h3 {
 
 .contact address p i {
   margin-right: 12px;
+  padding-left: 1px;
   font-size: 11px;
 }
 
