@@ -43,6 +43,19 @@
 }
 
 .author-personal-info h2 {
+  position: relative;
+  right: 3px;
+  bottom: 2px;
+
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 26px;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.author-personal-info h3 {
   margin: 0;
 
   color: #20816d;
