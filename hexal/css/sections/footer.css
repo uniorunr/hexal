@@ -154,7 +154,9 @@ section.contact h3 {
 .copyright p {
   margin: 0 39px;
   padding: 14px 0;
+}
 
+.copyright small {
   font: 400 12px "Maven Pro", sans-serif;
   color: #454545;
 }
