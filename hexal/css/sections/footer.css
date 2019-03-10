@@ -73,6 +73,11 @@ section.contact h3 {
   resize: none;
 }
 
+.contact-form fieldset input::placeholder,
+.contact-form fieldset textarea::placeholder {
+  color: #bebebe;
+}
+
 .contact-form fieldset .contact-form-message {
   height: 134px;
   padding: 8px 14px;
